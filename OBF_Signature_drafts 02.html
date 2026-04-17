@@ -17,9 +17,8 @@
         <tr>
           <!-- PHOTO -->
           <td valign="top" style="width:95px; padding:0 18px 0 0;">
-            <img
-              src="Elements/OBF_Signature_image.png"
-              alt="Name Surname"
+            <img src="<%= profilePhoto %>"
+              alt="<%= name %>"
               width="175"
               height="209"
               style="display:block; border:0; width:100px; height:123px;"
@@ -31,12 +30,12 @@
             <table cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
               <tr>
                 <td style="font-size:15px; line-height:26px; font-weight:bold; color:#2d2d7d;">
-                  Name Surname
+                  <%= name %>
                 </td>
               </tr>
               <tr>
                 <td style="font-size:13px; padding-top:8px; line-height:22px; color:#1e1e1e;">
-                  Title
+                  <%= jobTitle %>
                 </td>
               </tr>
               <tr>
@@ -45,12 +44,12 @@
                     <tr>
                       <td style="padding-right:10px;">
                         <a href="https://facebook.com/" style="text-decoration:none;">
-                          <img src="Elements/OBF_Signature_social_facebook.png" alt="Facebook" width="65" height="65" style="display:block; border:0; width:35px; height:35px;">
+                          <img src="https://raw.githubusercontent.com/OnikaBAU/OBF_Staff_Signatures/refs/heads/main/OBF_Signature_social_facebook.png" alt="Facebook" width="65" height="65" style="display:block; border:0; width:35px; height:35px;">
                         </a>
                       </td>
                       <td>
                         <a href="https://linkedin.com/" style="text-decoration:none;">
-                          <img src="Elements/OBF_Signature_social_linkedin.png" alt="LinkedIn" width="65" height="65" style="display:block; border:0; width:35px; height:35px;">
+                          <img src="https://raw.githubusercontent.com/OnikaBAU/OBF_Staff_Signatures/refs/heads/main/OBF_Signature_social_linkedin.png" alt="LinkedIn" width="65" height="65" style="display:block; border:0; width:35px; height:35px;">
                         </a>
                       </td>
                     </tr>
@@ -74,7 +73,7 @@
             <table cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
               <tr>
                 <td valign="top" style="padding:0 14px 15px 0;">
-                  <img src="Elements/OBF_Signature_phone.png" alt="Phone" width="54" height="44" style="display:block; border:0; width:18px; height:18px;">
+                  <img src="https://raw.githubusercontent.com/OnikaBAU/OBF_Staff_Signatures/refs/heads/main/OBF_Signature_phone.png" alt="Phone" width="54" height="44" style="display:block; border:0; width:18px; height:18px;">
                 </td>
                 <td style="font-size:12px; line-height:10px; color:#1f1f1f; padding:0 0 15px 0;">
                   <a href="tel:0214473240" style="text-decoration:none; color:#1f1f1f;">+27 21 447 3240</a>
@@ -83,25 +82,25 @@
 
               <tr>
                 <td valign="top" style="padding:0 14px 15px 0;">
-                  <img src="Elements/OBF_Signature_cell.png" alt="Mobile" width="54" height="44" style="display:block; border:0; width:18px; height:18px;">
+                  <img src="https://raw.githubusercontent.com/OnikaBAU/OBF_Staff_Signatures/refs/heads/main/OBF_Signature_cell.png" alt="Mobile" width="54" height="44" style="display:block; border:0; width:18px; height:18px;">
                 </td>
                 <td style="font-size:12px; line-height:10px; color:#1f1f1f; padding:0 14 15px 0;">
-                  <a href="tel:0729013132" style="text-decoration:none; color:#1f1f1f;">+27 72 901 3132</a>
+                  <a href="tel:<%= cellNumber %>" style="text-decoration:none; color:#1f1f1f;"><%= cellNumber %></a>
                 </td>
               </tr>
 
               <tr>
                 <td valign="top" style="padding:0 14px 15px 0;">
-                  <img src="Elements/OBF_Signature_mail.png" alt="Email" width="54" height="44" style="display:block; border:0; width:18px; height:18px;">
+                  <img src="https://raw.githubusercontent.com/OnikaBAU/OBF_Staff_Signatures/refs/heads/main/OBF_Signature_mail.png" alt="Email" width="54" height="44" style="display:block; border:0; width:18px; height:18px;">
                 </td>
                 <td style="font-size:12px; line-height:10px; color:#1f1f1f; padding:0 0 15px 0;">
-                  <a href="mailto:rayhana@obrienfinancial.co.za" style="text-decoration:none; color:#1f1f1f;">rayhana@obrienfinancial.co.za</a>
+                  <a href="mailto:<%= email %>" style="text-decoration:none; color:#1f1f1f;">rayhana@obrienfinancial.co.za</a>
                 </td>
               </tr>
 
               <tr>
                 <td valign="top" style="padding:0 14px 0 0;">
-                  <img src="Elements/OBF_Signature_location.png" alt="Address" width="54" height="54" style="display:block; border:0; width:18px; height:18px;">
+                  <img src="https://raw.githubusercontent.com/OnikaBAU/OBF_Staff_Signatures/refs/heads/main/OBF_Signature_location.png" alt="Address" width="54" height="54" style="display:block; border:0; width:18px; height:18px;">
                 </td>
                 <td style="font-size:12px; line-height:10px; color:#1f1f1f; padding:0;">
                   35 Brickfield Road, Brickfield Canvas, Woodstock, 7295
@@ -125,7 +124,7 @@
         <tr>
           <td style="padding:0;">
             <a href="https://apps.apple.com/us/app/sa-bullion/id6608972490" style="text-decoration:none;">
-              <img src="Elements/OBF_Signature_banner02.png" width="1644" height="204" alt="Download on the App Store"
+              <img src="https://raw.githubusercontent.com/OnikaBAU/OBF_Staff_Signatures/refs/heads/main/OBF_Signature_banner02.png" width="1644" height="204" alt="Download on the App Store"
                 style="display:block; width:700px; height:88px; border:0; outline:none; text-decoration:none;" />
             </a>
           </td>
