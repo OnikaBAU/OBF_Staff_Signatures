@@ -1,5 +1,14 @@
-[
-  {
+[ {
+    "name": "Shireen Leonard",
+    "jobTitle": "Reception",
+    "phone": "+27 21 447 3240",
+    "cellNumber": "+27 63 669 1971",
+    "email": "shireen@obrienfinancial.co.za",
+    "profilePhoto": "https://raw.githubusercontent.com/OnikaBAU/OBF_Staff_Signatures/refs/heads/main/Shireen_OBF_EmailSig.png",
+    "facebook": "https://facebook.com/obrienfinancial",
+    "linkedin": "https://linkedin.com/company/obrienfinancial"
+  
+  },{
     "name": "Rayhana O'Brien",
     "jobTitle": "Financial Advisor",
     "phone": "+27 21 447 3240",

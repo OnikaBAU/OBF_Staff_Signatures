@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const data = require('./data.json');
 
-const templatePath = path.join(__dirname, '../OBF_Staff_Signatures/OBF_Signature_drafts 02.html');
+const templatePath = path.join(__dirname, '../OBF_Signature_drafts 02.html');
 const outputDir = path.join(__dirname, '../Output');
 
 fs.mkdirSync(outputDir, { recursive: true });
